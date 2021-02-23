@@ -1,0 +1,36 @@
+﻿Build started 11/12/2020 13:44:16.
+     1>Project "C:\Users\Charlotte\Documents\3d graphics\878469\5108COMP-Coursework-Template\Applications\5108COMP-Coursework-Template\5108COMP-Coursework-Template.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Win32\Debug\) contains files shared from another project (5108COMP-Week8-Lab1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LJMULevelDemo.cpp
+         LJMULevelDemo.cpp
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuh3util.inl(20): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(186): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(200): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(342): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(351): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(360): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(369): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(378): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(398): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(424): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(426): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(452): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(520): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(971): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(985): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(1033): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(1041): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(1057): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\charlotte\documents\3d graphics\878469\5108comp-coursework-template\applications\5108comp-coursework-template\ljmuleveldemo.cpp(1065): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Charlotte\Documents\3d graphics\878469\5108COMP-Coursework-Template\Applications\Bin\5108COMP-Coursework-Template.exe" /INCREMENTAL /NOLOGO Hieroglyph3.lib D3DCompiler.lib DXGUID.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Charlotte\Documents\3d graphics\878469\5108COMP-Coursework-Template\Applications\Bin\5108COMP-Coursework-Template.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Charlotte\Documents\3d graphics\878469\5108COMP-Coursework-Template\Applications\Bin\5108COMP-Coursework-Template.lib" /MACHINE:X86 Win32\Debug\LJMULevelDemo.obj
+         Win32\Debug\LJMUShaderMaker.obj
+         Win32\Debug\LJMUTwoDOverlay.obj
+         Win32\Debug\SkyBoxActor.obj
+         5108COMP-Coursework-Template.vcxproj -> C:\Users\Charlotte\Documents\3d graphics\878469\5108COMP-Coursework-Template\Applications\Bin\5108COMP-Coursework-Template.exe
+     1>Done Building Project "C:\Users\Charlotte\Documents\3d graphics\878469\5108COMP-Coursework-Template\Applications\5108COMP-Coursework-Template\5108COMP-Coursework-Template.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.52
